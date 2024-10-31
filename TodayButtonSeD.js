@@ -4,11 +4,7 @@
 // @version      2024-10-31
 // @description  Adding today button to SeD work time
 // @author       Kacper Adamus
-// @match        https://351509.edokumenty.symfonia.pl/apps/edokumenty/engine/351509/Welcome
-// @match        edokumenty.symfonia.pl
-// @match        https://351509.edokumenty.symfonia.pl/apps/edokumenty/engine
-// @match        https://351509.edokumenty.symfonia.pl/apps/edokumenty/
-// @match        https://351509.edokumenty.symfonia.pl/
+// @match        https://*.edokumenty.symfonia.pl/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=symfonia.pl
 // @grant        none
 // ==/UserScript==
