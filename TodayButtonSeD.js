@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Today Button
 // @namespace    http://tampermonkey.net/
-// @version      2024-10-30
+// @version      2024-10-31
 // @description  Adding today button to SeD work time
-// @author       You
+// @author       Kacper Adamus
 // @match        https://351509.edokumenty.symfonia.pl/apps/edokumenty/engine/351509/Welcome
 // @match        edokumenty.symfonia.pl
 // @match        https://351509.edokumenty.symfonia.pl/apps/edokumenty/engine
