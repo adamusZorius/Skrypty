@@ -66,6 +66,13 @@
 
         dialogs.forEach(dialog => dialogListener(dialog))
         cAct.forEach(item => cActListener(item))
+
+        cAct.forEach(item => {
+            cActId = item.attributes.edappref.value
+            if (!alreadyAdded.includes(dialogTodo) && cActId.includes("RCP")) {
+                addButton(cActId)
+            }
+        })
     })
 
     const dialogListener = (dialog) => {
