@@ -23,7 +23,7 @@
     button.onclick = (e) => {
         e.preventDefault()
         const today = new Date()
-        date = today.getFullYear() + '-' + today.getMonth()+1 + '-' + (today.getDate() < 10 ? "0" + today.getDate() : today.getDate())
+        date = today.getFullYear() + '-' + (today.getMonth() < 10 ? "0" + (today.getMonth() + 1) : (today.getMonth() + 1)) + '-' + (today.getDate() < 10 ? "0" + today.getDate() : today.getDate())
         startInput.value = date
         endInput.value = date
     }
@@ -44,7 +44,7 @@
 
 
         const today = new Date()
-        date = today.getFullYear() + '-' + today.getMonth()+1 + '-' + (today.getDate() < 10 ? "0" + today.getDate() : today.getDate())
+        date = today.getFullYear() + '-' + (today.getMonth() < 10 ? "0" + (today.getMonth() + 1) : today.getMonth()) + '-' + (today.getDate() < 10 ? "0" + today.getDate() : today.getDate())
         startInput.value = date
         endInput.value = date
     }
